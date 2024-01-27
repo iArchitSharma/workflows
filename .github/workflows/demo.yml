@@ -1,5 +1,4 @@
-name: demo
-
+name: Demo GitHub Actions Workflow
 on: [push]
 jobs:
   Discover-GitHub-Actions-Workflows:
