@@ -1,0 +1,9 @@
+name: demo
+
+on: [push]
+
+jobs:
+  Discover-GitHub-Actions-Workflows:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "Hello World, am GitHub Action"
