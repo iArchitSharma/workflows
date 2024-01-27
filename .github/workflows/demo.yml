@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: GitHub action by Archit
+        run: echo "Hello world, this is Action"
       - name: Echo GitHub Event
         run: echo "${{ github.event_name }} event automatically triggered this job."
 
